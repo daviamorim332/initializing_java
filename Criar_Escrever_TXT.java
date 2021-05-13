@@ -12,9 +12,9 @@ public class Criar_Escrever_TXT {
   try { 
       FileWriter text;
       //cria o arquivo(true: não reseta a escrita a cada gravação)
-      text= new FileWriter (new File ("/home/daviamorim/Documentos/texto.txt"),true  );
+      text= new FileWriter (new File ("arquivo"),true  );
       //escreve no arquivo
-      text.write ("teste escrita de arquivo1\n" + "222"); // "\n" quebra a linha
+      text.write ("escreve o conteúdo aqui");
       //fecha o arquivo
       text.close();
       
